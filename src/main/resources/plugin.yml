@@ -1,0 +1,8 @@
+name: Gmsp
+version: '${project.version}'
+main: me.melarnoff.gmsp.Gmsp
+api-version: 1.19
+commands:
+  gmsp:
+    description: adds gmsp command if player has perm
+    permission: gmsp.spectator
